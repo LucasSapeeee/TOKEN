@@ -3,10 +3,22 @@
 }
 
 body {
-    background: linear-gradient(to right, #777, #fff);
+    background: linear-gradient(to right, #ff0000, #000000);
     display: flex;
     margin: 0;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: top;
     height: 100vh;
+    margin-left: 100;
+    margin-top: 75;
+}
+
+.login {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    padding: auto;
+    background: #9c066a;
+    border-radius: 20px;
+    position: relative;
 }
