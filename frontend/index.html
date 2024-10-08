@@ -1,8 +1,28 @@
 <html>
-    <head></head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <script src="../frontend/token.js"></script>
+        <link rel="stylesheet" href="../frontend/style.css">
+    </head>
 
     <body>
-        
+        <div class="login">
+            <h4>login</h4>
+            <form id="login" onsubmit="loginUsuario(event)">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="" required="">
+                <label for="contraseña" >Contraseña</label>
+                <input type="password" name="contraseña" id="password" minlength="8" oninput="validarContraseña()" onblur="ocultarError()" required="">
+                
+                <button type="submit" name="loginbutton">Login</button>
+    
+            </form>
+    
+        </div>
+
+    
     </body>
 
 </html>
